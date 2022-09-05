@@ -21,6 +21,10 @@
     />
     <meta property="og:title" content="Portfólio // Rakshit Bang" />
     <meta property="og:description" content="Portfólio // Rakshit Bang" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -37,7 +41,10 @@
     <link rel="icon" href="assets/image/logo-page.svg" />
     <link rel="apple-touch-icon" href="assets/image/logo-page.svg" />
     <link rel="canonical" href="https://iuricode.com/" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
     <script src="assets/js/svg-inject.min.js"></script>
     <script src="js/projects.js"></script>
     <title>Portfolio // Rakshit Bang</title>
@@ -61,13 +68,13 @@
           <ul class="nav-list">
             <li><a href="#s-about">Who Am I</a></li>
             <li>
-              <a href="#s-services">Skills</a>
+              <a href="#s-skills">Skills</a>
             </li>
             <li>
               <a href="#s-projects">Projects</a>
             </li>
             <li>
-              <a href="#s-skills">Contact Me</a>
+              <a href="#s-contacts">Contact Me</a>
             </li>
           </ul>
         </nav>
@@ -94,17 +101,17 @@
               </a>
             </div>
             <div id="home-container-photo">
-              <div id="home-photo">
-                <img
-                  src="assets/image/logo-svg-lab.svg"
-                  alt="Logo iuricode"
-                  onload="SVGInject(this)"
-                  id="logo-lab"
-                  class="object"
-                  width="500px"
-                  height="500px"
-                />
-              </div>
+              <img
+                style="
+                  margin-top: 75px;
+                  height: auto;
+                  width: 400px;
+                  border-radius: 25%;
+                  z-index: 15;
+                "
+                class="rakshit shadow-lg"
+                src="assets/image/Rakshit3.jpeg"
+              />
             </div>
           </div>
         </div>
@@ -194,62 +201,9 @@
               <h5 class="companyExperience">
                 An on-chain AngelList built on Tezos Blockchain
               </h5>
-              <p class="changeExperience">sdklfgiofsijgoij</p>
+              <p class="changeExperience">An end-to-end platform where investors can invest using tez/USDC.e/USDT in startups and can sign SAFT/SAFEs on the platform itself. This platform keep track of cap-table whenever a round closes and startups can also pay their employees and vendors in tez/USDT.</p>
             </div>
           </div>
-        </div>
-      </section>
-
-      <section id="s-projects">
-        <div class="grid-layout">
-          <h2 class="delaySmallReveal">Projects <span>.</span></h2>
-          <div id="projects">
-            <article class="intervalCardReveal teslabank">
-              <h3>TeslaBank</h3>
-              <p>
-                Site institucional de banco digital moderno, feito em HTML, Sass
-                e JavaScript.
-              </p>
-
-              <a
-                href="https://iuricode.com/teslabank/"
-                rel="noopener"
-                target="_blank"
-                id="teslabank"
-                >Visualizar projeto
-              </a>
-            </article>
-
-            <article class="intervalCardReveal naped">
-              <h3>Naped</h3>
-              <p>
-                Site de notícias nerd, feito em Next.js, TypeScript e Styled
-                Components.
-              </p>
-
-              <a
-                href="https://iuricode-naped.vercel.app/"
-                rel="noopener"
-                target="_blank"
-                id="naped"
-                >Visualizar projeto
-              </a>
-            </article>
-
-            <article class="intervalCardReveal">
-              <h3>Em breve</h3>
-              <p>
-                Pegue o café e espere um pouco, estou desenvolvendo o projeto.
-              </p>
-            </article>
-          </div>
-          
-        </div>
-      </section>
-
-      <section id="s-projects">
-        <div class="container">
-          <div class="cards d-flex flex-wrap"></div>
         </div>
       </section>
 
@@ -259,7 +213,7 @@
             <article id="skills-text">
               <h2 class="delaySmallReveal">Skills <span>.</span></h2>
               <p class="delayMediumReveal changeDescription">
-                *passe o cursor do mouse no card para ler*
+       
               </p>
             </article>
 
@@ -351,6 +305,32 @@
         </div>
       </section>
 
+      <section id="s-projects">
+        <div class="grid-layout">
+          <h2 class="delaySmallReveal">Projects <span>.</span></h2>
+          <div class="container">
+            <div class="cards d-flex flex-wrap"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="s-contacts">
+        <footer>
+          <div class="grid-layout">
+            <p id="direitos-autorais">© 2022 Rakshit Bang</p>
+            <div>
+              <a href="https://github.com/RBang2501" target="_blank"
+                ><i class="px-3 fa fa-github" style="font-size: 38px"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/rakshitbang" target="_blank"
+                ><i class="px-3 fa fa-linkedin" style="font-size: 38px"></i
+              ></a>
+            </div>
+          </div>
+        </footer>
+      </section>
+
+      <!-- 
       <section id="s-services">
         <div class="grid-layout">
           <h2 class="delaySmallReveal">Skills <span>.</span></h2>
@@ -404,14 +384,8 @@
             </article>
           </div>
         </div>
-        <footer>
-          <div class="grid-layout">
-            <p id="direitos-autorais">© 2022 Rakshit Bang</p>
-          </div>
-        </footer>
-      </section>
+      </section> -->
     </main>
-
     <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
     <script type="module" src="assets/js/main.js"></script>
     <script type="module" src="js/projects.js"></script>

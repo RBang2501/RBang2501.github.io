@@ -11,15 +11,16 @@ const projects = [
   },
   {
     img: "https://source.unsplash.com/random",
-    title: "Cuphead Clone",
+    title: "Tarzan Swing",
     tech_stack: "SDL Graphics Library",
     date: "November 19, 2021",
-    description: "",
+    description:
+      "A game created using SDL library in C++ which uses grappling gun concept to swing around 2D objects.A game created using SDL library in C++ which uses grappling gun concept to swing around 2D objects.",
     live: "",
     github: "https://github.com/Dragonglass101/CPP-Project",
   },
   {
-    img: "../imgs/sportify.png",
+    img: "https://raw.githubusercontent.com/Dragonglass101/Dragonglass101.github.io/main/imgs/sportify.png",
     title: "Sportify",
     tech_stack: "Firebase, React JS",
     date: "March 21, 2022",
